@@ -1,0 +1,160 @@
+$major-color: #0f4e66; /* #007bff; major*/
+
+$darken-1: darken($major-color, 7.5%);
+$darken-2: darken($major-color, 10.0%);
+$darken-3: darken($major-color, 12.5%);
+$darken-4: darken($major-color, 24.0%);
+$darken-5: darken($major-color, 34.0%);
+
+$lighten-1: lighten($major-color, 31.0%);
+$lighten-2: lighten($major-color, 36.0%);
+$lighten-3: lighten($major-color, 40.0%);
+
+a {
+	
+	color: $major-color;
+}
+
+a:hover {
+	
+	color: $darken-3;
+}
+
+.btn-link {
+
+	color: $major-color;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: $major-color;
+}	
+
+.alert-primary {
+  color: $darken-4;
+  background-color: $lighten-3;
+  border-color: $lighten-2;
+}
+
+.alert-primary hr {
+  border-top-color: $lighten-1;
+}
+
+.alert-primary .alert-link {
+  color: $darken-5;
+} 
+
+.badge-primary {
+  background-color: $major-color;
+}
+
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+  background-color: $darken-2;
+} 
+
+.btn-outline-primary {
+  color: $major-color;
+  border-color: $major-color;
+}
+
+.btn-outline-primary:hover {
+  background-color: $major-color;
+  border-color: $major-color;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: $major-color;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: $major-color;
+  border-color: $major-color;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}  
+
+.border-primary {
+  border-color: $major-color !important;
+} 
+
+.list-group-item.active,
+.list-group-item-primary {
+  color: $darken-4;
+  background-color: $lighten-2;
+}
+
+.list-group-item.active:hover,
+.list-group-item.active :focus,
+.list-group-item-primary.list-group-item-action:hover, 
+.list-group-item-primary.list-group-item-action:focus {
+  color: $darken-4;
+  background-color: $lighten-1;
+}
+
+.list-group-item.active,
+.list-group-item-primary.list-group-item-action.active {
+  border-color: $darken-4;
+}  
+
+
+.text-primary {
+  color: $major-color !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: $darken-2 !important;
+}
+
+.bg-primary {
+  background-color: $major-color !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: $darken-2 !important;
+}  
+
+.btn-primary {
+  background-color: $major-color;
+  border-color: $major-color;
+}
+
+.btn-primary:hover {
+  background-color: $darken-1;
+  border-color: $darken-2;
+}
+
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: $major-color;
+  border-color: $major-color;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: $darken-2;
+  border-color: $darken-3;
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: $lighten-2;
+}
+
+.table-hover .table-primary:hover {
+  background-color: $lighten-1;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: $lighten-1;
+}
